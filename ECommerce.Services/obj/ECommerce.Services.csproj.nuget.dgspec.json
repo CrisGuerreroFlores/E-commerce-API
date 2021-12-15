@@ -1,0 +1,295 @@
+{
+  "format": 1,
+  "restore": {
+    "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.Services\\ECommerce.Services.csproj": {}
+  },
+  "projects": {
+    "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj",
+        "projectName": "ECommerce.DataAccess",
+        "projectPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Administrador-BD\\.nuget\\packages\\",
+        "outputPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador-BD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerceAPI.Entities\\ECommerceAPI.Entities.csproj": {
+                "projectPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerceAPI.Entities\\ECommerceAPI.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DTO\\ECommerce.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DTO\\ECommerce.DTO.csproj",
+        "projectName": "ECommerce.DTO",
+        "projectPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DTO\\ECommerce.DTO.csproj",
+        "packagesPath": "C:\\Users\\Administrador-BD\\.nuget\\packages\\",
+        "outputPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador-BD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerceAPI.Entities\\ECommerceAPI.Entities.csproj": {
+                "projectPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerceAPI.Entities\\ECommerceAPI.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.Services\\ECommerce.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.Services\\ECommerce.Services.csproj",
+        "projectName": "ECommerce.Services",
+        "projectPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.Services\\ECommerce.Services.csproj",
+        "packagesPath": "C:\\Users\\Administrador-BD\\.nuget\\packages\\",
+        "outputPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador-BD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj": {
+                "projectPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj"
+              },
+              "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DTO\\ECommerce.DTO.csproj": {
+                "projectPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerce.DTO\\ECommerce.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerceAPI.Entities\\ECommerceAPI.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerceAPI.Entities\\ECommerceAPI.Entities.csproj",
+        "projectName": "ECommerceAPI.Entities",
+        "projectPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerceAPI.Entities\\ECommerceAPI.Entities.csproj",
+        "packagesPath": "C:\\Users\\Administrador-BD\\.nuget\\packages\\",
+        "outputPath": "J:\\MITOCODE SENOR E\\E-commerce API\\ECommerceAPI.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador-BD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
